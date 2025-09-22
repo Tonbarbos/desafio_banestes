@@ -6,6 +6,8 @@ Este projeto é uma aplicação web de página única (Single Page Application -
 
 Os dados são consumidos em tempo real de planilhas do Google Sheets, garantindo que as informações estejam sempre atualizadas. A aplicação é projetada para ser responsiva, adaptando-se a diversos dispositivos e tamanhos de tela, e segue as melhores práticas de design e acessibilidade para uma excelente experiência do usuário.
 
+Link do Projeto: https://projetobanestesdanton.netlify.app
+
 ## Funcionalidades Implementadas
 
 ### 1. Carregamento de Dados Externos
@@ -59,21 +61,89 @@ Os dados são consumidos em tempo real de planilhas do Google Sheets, garantindo
 
 A estrutura de arquivos do projeto é organizada da seguinte forma:
 
-```
-src/
-├── App.css
-├── App.tsx
-├── components/
-│   ├── ClientDetail.jsx
-│   ├── Reports.jsx
-│   └── ui/
-├── index.css
-├── main.jsx
-├── main.tsx
-├── utils/
-│   └── dataFetcher.js
-├── hooks/
-│   └── use-mobile.js
-```
+projetoBanestes/
+├── components.json
+├── eslint.config.js
+├── jsconfig.json
+├── package.json
+├── pnpm-lock.yaml
+├── src/
+│   ├── App.jsx
+│   ├── App.tsx
+│   ├── assets/
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   └── react.svg
+│   ├── components/
+│   │   ├── ClientCard.jsx
+│   │   ├── ClientDetail.jsx
+│   │   ├── ClientListHeader.jsx
+│   │   ├── ItemsPerPageSelector.jsx
+│   │   ├── PaginationControls.jsx
+│   │   ├── Reports.jsx
+│   │   └── ui/
+│   │       ├── accordion.jsx
+│   │       ├── alert-dialog.jsx
+│   │       ├── alert.jsx
+│   │       ├── aspect-ratio.jsx
+│   │       ├── avatar.jsx
+│   │       ├── badge.jsx
+│   │       ├── breadcrumb.jsx
+│   │       ├── button.jsx
+│   │       ├── calendar.jsx
+│   │       ├── card.jsx
+│   │       ├── carousel.jsx
+│   │       ├── chart.jsx
+│   │       ├── checkbox.jsx
+│   │       ├── collapsible.jsx
+│   │       ├── command.jsx
+│   │       ├── context-menu.jsx
+│   │       ├── dialog.jsx
+│   │       ├── drawer.jsx
+│   │       ├── dropdown-menu.jsx
+│   │       ├── form.jsx
+│   │       ├── hover-card.jsx
+│   │       ├── input-otp.jsx
+│   │       ├── input.jsx
+│   │       ├── label.jsx
+│   │       ├── menubar.jsx
+│   │       ├── navigation-menu.jsx
+│   │       ├── pagination.jsx
+│   │       ├── popover.jsx
+│   │       ├── progress.jsx
+│   │       ├── radio-group.jsx
+│   │       ├── resizable.jsx
+│   │       ├── scroll-area.jsx
+│   │       ├── select.jsx
+│   │       ├── separator.jsx
+│   │       ├── sheet.jsx
+│   │       ├── sidebar.jsx
+│   │       ├── skeleton.jsx
+│   │       ├── slider.jsx
+│   │       ├── sonner.jsx
+│   │       ├── switch.jsx
+│   │       ├── table.jsx
+│   │       ├── tabs.jsx
+│   │       ├── textarea.jsx
+│   │       ├── toggle-group.jsx
+│   │       ├── toggle.jsx
+│   │       └── tooltip.jsx
+│   ├── hooks/
+│   │   ├── use-mobile.js
+│   │   ├── useClientFiltering.js
+│   │   ├── useClientSorting.js
+│   │   └── usePagination.js
+│   ├── index.html
+│   ├── lib/
+│   │   └── utils.js
+│   ├── main.jsx
+│   ├── main.tsx
+│   ├── netlify.toml
+│   └── utils/
+│       └── dataFetcher.js
+├── tsconfig.json
+├── vite.config.js
+└── package-lock.json
+
 
 
